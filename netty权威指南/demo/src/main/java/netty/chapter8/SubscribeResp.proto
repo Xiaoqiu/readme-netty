@@ -1,0 +1,12 @@
+syntax = "proto2";
+package demo;
+option java_package = "netty.chapter8";
+option java_outer_classname = "SubscribeRespProto";
+
+message SubscribeResp {
+    required int32 subReqID = 1;
+    required int32 respCode = 2;
+    required string desc = 3;
+}
+// protoc  --java_out=./  *.proto
+// protoc --java_out=/Users/kate/blog/my_draft/script/netty/netty权威指南/demo/src/main/java/netty/chapter8/ /Users/kate/blog/my_draft/script/netty/netty权威指南/demo/src/main/java/netty/chapter8/SubscribeResp.proto
