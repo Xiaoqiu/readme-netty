@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="930d08e1-b6a5-4107-b851-ca74625b4b1f" name="Default Changelist" comment="" />
+    <list default="true" id="930d08e1-b6a5-4107-b851-ca74625b4b1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_8_0_rc_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_5_0_0_Alpha2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_2_0_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_serial_2_0_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_msgpack_msgpack_0_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/chapter12/MessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthReqHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthReqHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthRespHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthRespHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chapter12/NettyMessageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/chapter12/NettyMessageDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter10/HttpFileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter10/HttpFileServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter11/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter11/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter12/LoginAuthReqHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter12/LoginAuthRespHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter12/LoginAuthRespHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter12/MarshallingDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter12/MarshallingDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter12/MarshallingEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter12/MarshallingEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter12/NettyMessageDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter12/NettyMessageDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter3/netty/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter3/netty/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter3/netty/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter3/netty/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter4/badTest/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter4/badTest/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter4/badTest/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter4/badTest/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter5/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter5/EchoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter5/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter5/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter5/FixedLengthFrameDecoder/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter5/FixedLengthFrameDecoder/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter7/messagePack/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter7/messagePack/EchoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter7/messagePack/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter7/messagePack/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter8/SubReqClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter8/SubReqClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter8/SubReqServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter8/SubReqServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter9/SubReqClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter9/SubReqClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter9/SubReqServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter9/SubReqServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,44 +102,74 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1563629452">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1369" />
+          <entry key="txt" value="21" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1369" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="10" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthReqHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/BigFileDownloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter1/TimeServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="-864">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter1/MultiplexerTimeServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthRespHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            <state relative-caret-position="495">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/MessageType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -103,6 +183,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -118,6 +201,11 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter4/BigFileDownloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/chapter1/TimeServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/chapter1/MultiplexerTimeServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/chapter12/NettyMessageDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthReqHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/chapter12/MessageType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthRespHandler.java" />
       </list>
     </option>
   </component>
@@ -127,19 +215,49 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="684" />
-    <option name="y" value="23" />
-    <option name="width" value="756" />
-    <option name="height" value="788" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="873" />
+    <option name="width" value="1054" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +289,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,25 +306,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559069889305" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../nettybook2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.19944212" />
-    <property name="settings.editor.selected.configurable" value="settings.findbugs.project" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.chapter12" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,27 +397,28 @@
       <workItem from="1557973527167" duration="1631000" />
       <workItem from="1558075292426" duration="4125000" />
       <workItem from="1558310951367" duration="1714000" />
+      <workItem from="1559060183064" duration="1367000" />
+      <workItem from="1559061619139" duration="4704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8081000" />
+    <option name="totallyTimeSpent" value="14152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="684" y="23" width="756" height="788" extended-state="0" />
+    <frame x="699" y="0" width="843" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21365638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21401274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="JProfiler" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.32064423" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,17 +429,23 @@
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053364" side_tool="true" weight="0.32064423" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="15" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info active="true" anchor="bottom" id="Messages" order="18" visible="true" weight="0.329429" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="JuliaSciView" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32873806" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,31 +467,71 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter1/TimeServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter1/MultiplexerTimeServer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/BigFileDownloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="459">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter1/TimeServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter7/messagePack/EchoClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="171">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter1/MultiplexerTimeServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter7/messagePack/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="30" selection-start-line="10" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/NettyMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthReqHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/chapter12/LoginAuthRespHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -360,6 +541,30 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <last-edited>java</last-edited>
@@ -384,6 +589,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19944212" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -398,6 +616,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.8.0-rc-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -408,5 +627,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="-U idea:idea" />
   </component>
 </project>

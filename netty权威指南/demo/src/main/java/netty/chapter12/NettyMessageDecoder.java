@@ -9,12 +9,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *  LengthFieldBasedFrameDecoder 支持粘包和半包处理。
+ *  只需要给出标识消息长度的字段偏移量，和消息长度自身所占的字节数。
  * @author kate
  * @create 2019/5/24
  * @since 1.0.0
  */
 public class NettyMessageDecoder extends LengthFieldBasedFrameDecoder {
   MarshallingDecoder marshallingDecoder;
+  // 最大帧长度，标识消息长度的字段偏移量，消息长度
   public NettyMessageDecoder(int maxFrameLength, int lengthFieldOffset, int lengthFieldLength) throws IOException {
     super(maxFrameLength, lengthFieldOffset, lengthFieldLength);
     marshallingDecoder = new MarshallingDecoder();
@@ -22,7 +25,7 @@ public class NettyMessageDecoder extends LengthFieldBasedFrameDecoder {
 
   }
 
-  @Override
+  // 返回的是整包消息或者为空
   protected Object decode(ChannelHandlerContext ctx, ByteBuf in) throws Exception {
     ByteBuf frame = (ByteBuf) super.decode(ctx,in);
     if (frame == null) {
@@ -44,9 +47,17 @@ public class NettyMessageDecoder extends LengthFieldBasedFrameDecoder {
       byte[] keyArray = null;
       String key = null;
       for (int i = 0; i < size; i++) {
-
+          keySize = in.readInt();
+          keyArray = new byte[keySize];
+          in.readBytes(keyArray);
+          key = new String(keyArray,"UTF-8");
+          attch.put(key,marshallingDecoder.decode(in));
       }
+      keyArray = null;
+      key = null;
+      header.setAttachment(attch);
     }
-    return super.decode(ctx, in);
+    message.setHeader(header);
+    return message;
   }
 }

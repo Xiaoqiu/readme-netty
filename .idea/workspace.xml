@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43baafca-9344-4b92-9fe8-67fe5c6b1ea4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty权威指南/demo/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/NettyMessageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/NettyMessageDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/chapter4/BigFileDownloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter10/HttpFileServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter10/HttpFileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter10/HttpFileServerHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter10/HttpFileServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter11/WebSocketServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter11/WebSocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter11/WebSocketServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/ChannelBufferByteInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/ChannelBufferByteOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/Header.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/HearBeatReqHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/LoginAuthReqHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/LoginAuthRespHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/MarshallingCodeCFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/MarshallingDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/MarshallingEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/NettyMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/NettyMessageDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/NettyMessageEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter12/NettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/AIO/AcceptCompletionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/AIO/AsynTimeServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/AIO/ReadCompletionHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/AIO/ReadCompletionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/AIO/TimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/MultiplexerTimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/TimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/TimeClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter2/TimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeServer$ChildChannelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter3/netty/TimeServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeServer$ChildChannelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter4/badTest/TimeServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/EchoClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/EchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/EchoClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/EchoServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/EchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/FixedLengthFrameDecoder/EchoServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/FixedLengthFrameDecoder/EchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter5/FixedLengthFrameDecoder/EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/EchoClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/EchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/EchoClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/EchoServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/EchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/MsgpackDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/MsgpackEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/TestAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter7/messagePack/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubReqClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubReqClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubReqClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubReqServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubReqServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubReqServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeReqProto$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeReqProto$SubscribeReqOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeReqProto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeRespProto$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeRespProto$SubscribeResp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeRespProto$SubscribeRespOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/SubscribeRespProto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter8/TestSubscribeReqProto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/MarshallingCodeCFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubReqClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubReqClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubReqClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubReqServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubReqServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubReqServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeReqProto$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeReqProto$SubscribeReqOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeReqProto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeRespProto$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeRespProto$SubscribeResp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeRespProto$SubscribeRespOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty权威指南/demo/target/classes/netty/chapter9/SubscribeRespProto.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/netty权威指南/demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.22.0" />
+      </map>
+    </option>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1485149630">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="209" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="209" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/ChannelBufferByteOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#1818#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/MarshallingDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/NettyMessageDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty权威指南/demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter8/SubReqClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/Header.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/NettyMessageDecoder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="885" />
+    <option name="y" value="5" />
+    <option name="width" value="1024" />
+    <option name="height" value="1004" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="readme-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="readme-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559060005101" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty权威指南/demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43baafca-9344-4b92-9fe8-67fe5c6b1ea4" name="Default Changelist" comment="" />
+      <created>1559058612990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559058612990</updated>
+      <workItem from="1559058618268" duration="998000" />
+      <workItem from="1559059809199" duration="239000" />
+      <workItem from="1559060124740" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1287000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="708" y="4" width="819" height="803" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29040736" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32977098" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.3285151" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/ChannelBufferByteOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#1818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/MarshallingDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/NettyMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty权威指南/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter12/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty权威指南/demo/src/main/java/netty/chapter8/SubReqClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>readme-netty</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
