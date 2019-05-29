@@ -2,8 +2,6 @@ package netty.chapter9;
 
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
-import netty.chapter8.SubscribeReqProto;
-import netty.chapter8.SubscribeRespProto;
 
 /**
  * @author kate

@@ -1,6 +1,5 @@
 package netty.chapter12;
 
-import io.netty.handler.codec.marshalling.*;
 import org.jboss.marshalling.*;
 
 import java.io.IOException;
